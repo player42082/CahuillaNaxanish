@@ -1,0 +1,21 @@
+strong { color : white; }
+test {text-align: justify;}
+body { font-family: times new roman; background-color: black;}
+h1 { color: blue; background-color: white; }
+table {        
+	font-family: sans-serif, ;	
+        margin: auto auto auto auto;
+        color: white;
+        background-color:  blue;
+	border-style: solid;
+        border-collapse: collapse;
+        border-color: purple;
+        border-width: thick;        
+	text-align: center;
+
+     <tr>
+	font : red;
+     </tr>
+        
+}
+
