@@ -1,7 +1,7 @@
 @media screen and (min-width: 480px) {
-	body {
+      {
           #leftsidebar { width: 200px; float: left;}
-	  #margin { margin-left: 216px;   }
+	  #main { margin-left: 216px;   }
               }
 
          }
