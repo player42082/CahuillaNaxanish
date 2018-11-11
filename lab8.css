@@ -1,0 +1,74 @@
+
+body{
+  font-family: arial;
+  background-color: lightblue;
+  margin:0;
+ }
+ 
+ body>header{text-align: center; margin: 0; padding: 0; list-style-type: none;}
+   
+ body>header>nav{
+   background-color: white;
+   height: 50px;
+   text-align: center;
+ }
+  body>header>nav ul {
+   border: 1px solid red;
+   margin: 0;
+   color: black;
+   padding: 0;
+   background-color: darkblue;
+   list-style-type: none;
+   }
+body>header>nav>ul ul {
+	min-width: 100%;
+}
+body>header>nav a{
+   display: block;
+   padding: 1em;
+   color: white;
+   text-decoration: none;
+  }
+
+ body>header>nav>ul>li { display:inline-block; width: 300px; border-right:1px solid #ccc; text-align: center; }
+ 
+body>header>nav>ul>li:hover>a,
+body>header>nav>ul>li>focus-within>a,
+body>header>nav>ul>li>ul>li>a:hover,
+body>header>nav>ul>li>ul>li>a:focus{
+	color: black;
+  background-color:yellow;
+    }
+
+body>header>nav>ul>li {
+     position: relative;
+     display: inline-block;
+}
+
+body>header>nav>ul>li>ul{ display:none;}
+
+body>header>nav>ul>li:hover>ul,
+
+body>header>nav>ul>li:focus-within>ul{
+   position: absolute;
+   display: block;
+   z-index: 1;
+   white-space: nowrap;
+}
+
+
+body>main {padding: 1em;text-align:center;}
+
+body>div{
+   display: inline-block;
+   box-sizing: border-box;
+   padding: 1em;
+   width: 33.33%;
+   vertical-align: top;
+}
+
+@media screen and (min-width: 600px){
+    #leftsidebar {width: 200px; float: left;}
+    #main { margin-left: 216px;}
+ 
+   }
