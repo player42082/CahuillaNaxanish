@@ -16,7 +16,7 @@ body>header>nav a  { display: block; text-decoration:none; padding:1em; backgrou
 body>header>nav>ul>li:hover>a,
 body>header>nav>ul>li:focus-within>a,
 body>header>nav>ul>li>ul>li>a:hover,
-body>header>nav>ul>li>ul>li>a:focus{ color: pink, background-color: white; }
+body>header>nav>ul>li>ul>li>a:focus{ color: green; background-color: white; }
 
 body>header>nav>ul>li { display:inline-block; border:right 1px solid red; text-align:center; position:relative; }
 
